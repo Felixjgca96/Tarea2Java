@@ -92,7 +92,7 @@ console.log(
   "d) Todos los ingredientes de cada pizza En cada iteración imprimir los ingredientes de la pizza que se esta recorriendo."
 );
 
-const pizzasNombre = pizzas.some((producto) => {
+const pizzasNombre = pizzas.forEach((producto) => {
   console.log(
     `La ${producto.nombre}, tiene los siguientes ingredientes: ${producto.ingredientes}.`
   );
